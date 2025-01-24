@@ -1,0 +1,133 @@
+.main-container{
+    background-image: url("../../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+   height: 100vh;
+
+ 
+}
+.buttons{
+    margin-top: 20px;
+    margin-right: 70px;
+}
+.signin{
+    border: none;
+    background-color: red;
+    margin-left: 20px;
+    color: #fff;
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+    font-weight: 700;
+    cursor: pointer;
+}
+select{
+    width: 110px;
+    height: 35px;
+    border: 1px solid #fff;
+ padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+.banner-text{
+    width: 700px;
+    margin-left: 150px;
+}
+.banner-text > h1{
+    color: #fff;
+    font-size: 80px !important;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.banner-text > h2{
+    color: #fff;
+    font-size: 25px !important;
+    padding-top: 0;
+    
+}
+.banner-text > h3{
+    color: #fff;
+    
+    
+}
+.banner-inputs{
+    margin-left: 150px;
+}
+.email{
+    width: 400px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 2px;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+.email::placeholder{
+    color: #fff;
+}
+.getstarted{
+    background-color: red;
+    width: 200px;
+    height: 65px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+ margin: 100px auto;
+   width: 95%;
+    
+}
+.cards{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,97,1) 35%, rgba(0,212,255,1) 100%);
+    width: 45vw;
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+.cards > img{
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20px auto;
+}
+.cards h2 {
+    color: #fff;
+    text-align: center;
+}
+.cards h3 {
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.sub-container{
+    width: 100%;
+    background-color: #000;
+}
+.sub-container h1{
+    color: #fff;
+    margin-left: 40px;
+    font-size: 42px;
+}
+.sub-container h2{
+    color: #fff;
+    margin-left: 40px;
+    font-weight: normal;
+}
+.banner-inputs-below{
+    margin-left: 40px;
+}
